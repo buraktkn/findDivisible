@@ -24,3 +24,6 @@ services:_
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: testdb
+docker compose build
+
+docker compose up -d
